@@ -10,9 +10,11 @@ public class Department implements Serializable {
 	private String name;
 
 	public Department() {
+
 	}
 
 	public Department(Integer id, String name) {
+
 		this.id = id;
 		this.name = name;
 	}
@@ -62,4 +64,5 @@ public class Department implements Serializable {
 	public String toString() {
 		return "Department [id=" + id + ", name=" + name + "]";
 	}
+
 }
